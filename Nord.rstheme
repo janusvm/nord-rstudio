@@ -24,19 +24,23 @@
     background: var(--nord0);
     color: var(--nord3);
 }
+
 .ace_print-margin {
     width: 1px;
     background: var(--nord1);
 }
+
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
     background: var(--nord0);
     color: var(--nord6);
 }
+
 .ace_cursor { color: var(--nord11); }
 .ace_marker-layer .ace_selection { background: var(--nord11); }
 .ace_selection.ace_start {
     /* TODO */
 }
+
 .ace_marker-layer .ace_step {
     background: var(--nord12);
 }
@@ -67,20 +71,29 @@
     color: var(--nord13);
 }
 
+.ace_bracket {
+    margin: 0 !important;
+    border: 0 !important;
+    background-color: var(--nord11);
+}
+
 .ace_marker-layer .ace_bracket {
     color: var(--nord11);
     font-weight: bold;
 }
+
 .ace_support.ace_constant,
 .ace_support.ace_function {
   color: var(--nord8)
 }
+
 .ace_storage.ace_type,
 .ace_support.ace_class,
 .ace_support.ace_type {
   font-style: italic;
   color: var(--nord10);
 }
+
 .ace_variable.ace_parameter {
     color: var(--nord12);
 }
